@@ -1,0 +1,13 @@
+{
+  "name": "gemma-finetune",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "train": "node gemma.js train",
+    "chat": "node gemma.js chat",
+    "test": "echo 'no tests'"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.6.1"
+  }
+}
